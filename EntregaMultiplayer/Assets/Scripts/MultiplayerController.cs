@@ -51,6 +51,7 @@ public class MultiplayerController : MonoBehaviourPunCallbacks
         PhotonNetwork.CreateRoom(roomName);
 
     }
+
     IEnumerator UpdatePing(float tempo)
     {
         yield return new WaitForSeconds(tempo);
